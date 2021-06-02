@@ -1,0 +1,84 @@
+.login{
+	margin: 0 auto;
+	width: 100%;
+	background-color: #999999;
+
+}
+.palabra-registrate{
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	font-size: 23px;
+	color: blue;
+}
+.nombre{
+
+
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+.form{
+	float: right;
+	width: 115%;
+	text-align: -webkit-center;
+	}
+.imagen-derecha {
+	 width: 100%; 
+	 background-size: cover;
+	 height: 95vh;
+	 position: absolute;
+	 left: 50px;
+	 top: 20px;
+}
+body
+.caja{
+	position: relative;
+	display: inline-block;
+}
+.text1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 22px;
+	color: white;
+}
+.text2{
+	position: absolute;
+	top: 80%;
+	right: 10%;
+	font-size: 16px;
+	color: white;
+
+}
+.text3{
+	position: absolute;
+	top: 80%;
+	right: 10%;
+	font-size: 16px;
+	color: white;
+}
+.colorear { 
+background-image: linear-gradient(
+      rgba(255, 0, 0, 0.3), 
+      rgba(255, 0, 0, 0.3)
+    ),
+height: 480px; 
+width: 720px; 
+}
+#fondo: before{
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	 background: rgba(96,29,146,255);
+	background-color: rgba(0,0,0,0.6);
+}
